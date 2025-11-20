@@ -88,7 +88,7 @@ cursor: pointer;
 transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .submit{
-    background-color: rgb(45, 53, 200); /* Vert */
+    background-color: rgb(198, 236, 73); /* Vert */
     border: 10px;
 margin-top: 8px;
 color: white;
