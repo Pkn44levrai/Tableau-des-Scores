@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: whitesmoke;
+    font-family: "Comic Sans Ms";
+}
+main{
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+  text-align: center;  
+  background-color: rgb(41, 78, 229);
+  color: white;
+  padding: 4px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Equipe{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: 16px;
+    padding: 18px;
+}
+.Button{
+    background-color: rgb(41, 78, 229); /* Vert */
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+}
+.timer{
+    text-align: center;
+    justify-content: center;
+    font-size: 75px;
+}
+.btn{
+    background-color: rgb(41, 78, 229); /* Vert */
+color: rgb(255, 254, 254);
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btntimer{
+    display: flex;
+    justify-content: center;
+}
+#start{
+    background-color: rgb(23, 231, 75);
+}
+#stop{
+    background-color: rgb(229, 41, 41);
+}
+#reset{
+    background-color: rgb(207, 41, 229);
+}
+.btnfaute{
+    background-color: rgb(229, 41, 41); /* Vert */
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.submit{
+    background-color: rgb(139, 37, 235); /* Vert */
+    border: 10px;
+margin-top: 8px;
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+font-family: "Comic Sans Ms";
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#timeSelect{
+    background-color: rgb(139, 37, 235); /* Vert */
+    border: 10px;
+margin-top: 8px;
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+font-family: "Comic Sans Ms";
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.2s ease;
+}
