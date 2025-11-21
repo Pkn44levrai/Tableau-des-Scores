@@ -67,13 +67,13 @@ transition: background-color 0.3s ease, transform 0.2s ease;
     justify-content: center;
 }
 #start{
-    background-color: rgb(23, 231, 75);
+    background-color: rgb(36, 130, 229);
 }
 #stop{
-    background-color: rgb(229, 41, 41);
+    background-color: rgb(36, 130, 229);
 }
 #reset{
-    background-color: rgb(207, 41, 229);
+    background-color: rgb(36, 130, 229);
 }
 .btnfaute{
     background-color: rgb(229, 41, 41); /* Vert */
