@@ -51,7 +51,7 @@ const start=document.getElementById("start")
 const stop=document.getElementById("stop")
 const reset=document.getElementById("reset")
 const timer=document.getElementById("timer")
-let timeLeft=480;
+let timeLeft=600;
 let interval
 
 function updateTimer() {
@@ -73,7 +73,7 @@ function startTimer () {
         if(timeLeft===0){
             clearInterval(interval);
             alert("Time's up!")
-            timeLeft = 480;
+            timeLeft = 600;
             updateTimer();
             
 
@@ -91,7 +91,7 @@ function stopTimer() {
 
         const resetTimer = () => {
             clearInterval(interval);
-            timeLeft =  480;
+            timeLeft =  600;
             updateTimer();
         }
 var fautes=document.getElementsByClassName(fautesA)
